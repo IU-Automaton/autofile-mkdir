@@ -1,0 +1,26 @@
+{
+  "name": "autofile-mkdir",
+  "version": "0.0.1",
+  "description": "Make directory recursively, just like `mkdir -p`.",
+  "main": "autofile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IU-Automaton/autofile-mkdir"
+  },
+  "keywords": [
+    "autofile",
+    "automaton",
+    "task",
+    "mkdir",
+    "make",
+    "dir",
+    "directory",
+    "folder"
+  ],
+  "author": "Indigo United",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
