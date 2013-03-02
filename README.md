@@ -1,9 +1,9 @@
 `automaton task` - http://indigounited.com/automaton
 
-rm
+mkdir
 ===
 
-Remove file or set of files.
+Make directory recursively, just like `mkdir -p`.
 
 *Indigo United 2013*
 
