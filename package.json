@@ -1,6 +1,6 @@
 {
   "name": "autofile-mkdir",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Make directory recursively, just like `mkdir -p`.",
   "main": "autofile.js",
   "scripts": {
