@@ -1,13 +1,14 @@
+/*global describe, it, before, beforeEach, after*/
+
 'use strict';
 
-var expect    = require('expect.js'),
-    fs        = require('fs'),
-    path      = require('path'),
-    rimraf    = require('rimraf'),
-    isDir     = require('./util/is-dir'),
-    mkdir     = require('../autofile'),
-    automaton = require('automaton').create()
-;
+var expect    = require('expect.js');
+var fs        = require('fs');
+var path      = require('path');
+var rimraf    = require('rimraf');
+var isDir     = require('./util/isDir');
+var mkdir     = require('../autofile');
+var automaton = require('automaton').create();
 
 describe('mkdir', function () {
     var mode755_dir,

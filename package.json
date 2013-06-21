@@ -1,14 +1,14 @@
 {
   "name": "autofile-mkdir",
   "version": "0.0.0",
-  "description": "Make directory recursively, just like `mkdir -p`.",
+  "description": "Make directory recursively, just like 'mkdir -p'.",
   "main": "autofile.js",
   "scripts": {
     "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IU-Automaton/autofile-mkdir"
+    "url": "git://github.com/IU-Automaton/autofile-mkdir.git"
   },
   "keywords": [
     "autofile",
@@ -27,9 +27,9 @@
     "mkdirp": "~0.3.5"
   },
   "devDependencies": {
-    "automaton": "~0.1.4",
+    "automaton": "~0.2.0",
     "rimraf": "~2.1.4",
     "expect.js": "~0.2.0",
-    "mocha": "~1.8.1"
+    "mocha": "~1.11.0"
   }
 }
